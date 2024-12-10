@@ -2,6 +2,7 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import WorkExp from "./layout/work";
 import Profile from "./layout/profile";
+import Education from "./layout/education";
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
         <GridItem colSpan={{ base: 1, md: 2 }}>
           <WorkExp />
         </GridItem>
+        <GridItem colSpan={{ base: 1, md: 3 }}>
+          <Education />
+        </GridItem>
       </Grid>
+      
     </>
   );
 }
