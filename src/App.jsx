@@ -1,7 +1,4 @@
-import {
-  Grid,
-  GridItem,
-} from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import WorkExp from "./layout/work";
 import Profile from "./layout/profile";
@@ -9,12 +6,16 @@ import Profile from "./layout/profile";
 function App() {
   return (
     <>
-      <Grid templateColumns="repeat(3, 1fr)" gap="6">
-        <GridItem colSpan={1}>
-          <Profile/>
+      <Grid
+        templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
+        gap={6}
+        p={4}
+      >
+        <GridItem colSpan={{ base: 1, md: 1 }}>
+          <Profile />
         </GridItem>
-        <GridItem colSpan={2}>
-         <WorkExp/>
+        <GridItem colSpan={{ base: 1, md: 2 }}>
+          <WorkExp />
         </GridItem>
       </Grid>
     </>
