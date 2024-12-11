@@ -11,7 +11,7 @@ function WorkExp() {
       <Card.Title
         fontSize="3xl"
         fontWeight="bolder"
-        mb={14}
+        mb={8}
         textAlign="center"
         color="#2D3748"
       >
@@ -74,9 +74,10 @@ function WorkExp() {
         <List.Root>
           <List.Item>
             Collaborated with cross-functional teams, including sales,
-            marketing, and product, to align web development efforts with
-            broader customer-focused strategies, ensuring cohesive execution and
-            a seamless user experience across all digital channels.
+            marketing, and product management, to align web development efforts
+            with broader customer-focused strategies, ensuring cohesive
+            execution and a seamless user experience across all digital
+            channels.
           </List.Item>
           <List.Item>
             Built and optimized responsive web applications utilizing React,
@@ -91,9 +92,12 @@ function WorkExp() {
           </List.Item>
           <List.Item>
             Led Agile development cycles, reducing project timelines by 25% and
-            doubling deployment frequency. Integrated an AI-driven chat
-            assistant using React, increasing user satisfaction by 25% through
-            enhanced, on-demand support and engagement.
+            doubling deployment frequency.
+          </List.Item>
+          <List.Item>
+            Integrated an AI-driven chat assistant using React, increasing user
+            satisfaction by 25% through enhanced, on-demand support and
+            engagement.
           </List.Item>
           <List.Item>
             Developed and implemented custom dashboards with dynamic data
