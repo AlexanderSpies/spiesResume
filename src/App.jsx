@@ -9,8 +9,9 @@ function App() {
     <>
       <Grid
         templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
-        gap={6}
+        gap={3}
         p={4}
+        width="100%"
       >
         <GridItem colSpan={{ base: 1, md: 1 }}>
           <Profile />
