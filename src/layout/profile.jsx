@@ -44,7 +44,6 @@ function Profile() {
               fontWeight="medium"
               mb={1}
               color="#2D3748"
-              
             >
               Contact Information
             </Card.Description>
@@ -105,20 +104,20 @@ function Profile() {
               Skills
             </Card.Description>
             <Blockquote color="#2D3748">
-              Leadership & Strategic Planning
-              <br />
-              <br />
-              Problem-Solving & Adaptability
-              <br />
-              <br />
-              Effective Communication & Collaboration
-              <br />
-              <br />
-              Project Management & Time Management
-              <br />
-              <br />
-              Client Relationship Management User-Centered Design & Creative
-              Thinking
+              <List.Root>
+                <List.Item>Collaborative Leadership</List.Item>
+                <List.Item>Strategic Decision-Making</List.Item>
+                <List.Item>Cross-Functional Communication</List.Item>
+                <List.Item>Problem-Solving Under Pressure</List.Item>
+                <List.Item>Agile Development Facilitation</List.Item>
+                <List.Item>Attention to Detail</List.Item>
+                <List.Item>Stakeholder Alignment</List.Item>
+                <List.Item>Adaptability and Resilience</List.Item>
+                <List.Item>Time Management</List.Item>
+                <List.Item>Critical Thinking</List.Item>
+                <List.Item>Team Building and Mentorship</List.Item>
+                <List.Item>Process Optimization</List.Item>
+              </List.Root>
             </Blockquote>
             <Card.Description
               textStyle="xl"
@@ -131,7 +130,7 @@ function Profile() {
             <Blockquote color="#2D3748">
               <Box display="flex" alignItems="center" mb={2}>
                 <FaAws size="22px" color="#FF9900" />
-                <Text marginLeft={4} >AWS</Text>
+                <Text marginLeft={4}>AWS</Text>
               </Box>
               <Box display="flex" alignItems="center" mb={2}>
                 <FaJira color="#6554C0" size="22px" />
