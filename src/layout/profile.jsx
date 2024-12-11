@@ -145,6 +145,10 @@ function Profile() {
                 <Text marginLeft={4}>GitHub</Text>
               </Box>
               <Box display="flex" alignItems="center" mb={2}>
+                <FaGitAlt color="#f34f29" size="22px" />
+                <Text marginLeft={4}>Git</Text>
+              </Box>
+              <Box display="flex" alignItems="center" mb={2}>
                 <DiMysql color="#00768F" size="22px" />
                 <Text marginLeft={4}>MySQL</Text>
               </Box>
@@ -155,10 +159,6 @@ function Profile() {
               <Box display="flex" alignItems="center" mb={2}>
                 <SiMongodb color="#589638" size="22px" />
                 <Text marginLeft={4}>MongoDB</Text>
-              </Box>
-              <Box display="flex" alignItems="center" mb={2}>
-                <FaGitAlt color="#f34f29" size="22px" />
-                <Text marginLeft={4}>Git</Text>
               </Box>
               <Box display="flex" alignItems="center" mb={2}>
                 <FaReact color="#0081a3" size="22px" />
