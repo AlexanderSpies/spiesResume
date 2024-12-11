@@ -35,19 +35,22 @@ function Profile() {
       </Box>
       <Card.Body>
         <VStack>
+          <Box mb={5}>
           <Card.Title fontSize="2xl" color="#2D3748">
             Alexander David Spies
           </Card.Title>
+          <Card.Description fontWeight="bold"color="#2D3748" textAlign='center'>Full Stack Developer</Card.Description>
+          </Box>
           <List.Root>
+          <Box mb={6} >
             <Card.Description
               textStyle="xl"
               fontWeight="medium"
-              mb={1}
               color="#2D3748"
             >
               Contact Information
             </Card.Description>
-
+            <Blockquote>
             <List.Indicator>
               <HStack>
                 <IoPhonePortraitOutline color="#2D3748" />
@@ -76,29 +79,25 @@ function Profile() {
                 </Link>
               </HStack>
             </List.Indicator>
+            </Blockquote>
+            </Box>
+            <Box mb={6}>
             <Card.Description
               textStyle="xl"
               fontWeight="medium"
-              mb={2}
               color="#2D3748"
             >
               About me
             </Card.Description>
             <Blockquote color="#2D3748">
-              With 10+ years in the USAF, recent experience as a Front-End
-              Engineer at Ally Financial, and a solid foundation from a
-              four-year web development program, I bring a unique mix of
-              leadership, technical expertise, and problem-solving skills. My
-              military background instilled discipline and resilience, while my
-              role at Ally Financial honed my skills in building scalable,
-              user-centered applications. Experienced in delivering high quality
-              solutions under pressure, I am well-prepared to excel in dynamic
-              web development environments.
+            A seasoned professional with 10+ years in the USAF and a passion for technology, I blend leadership, technical expertise, and customer-focused problem-solving. As a Front-End Engineer, Full Stack Developer, and Customer Success Manager, I’ve honed my skills in delivering scalable, user-centered solutions, combining military discipline with innovative development practices to excel in dynamic environments.
             </Blockquote>
+            </Box>
+            <Box mb={4}>
             <Card.Description
               textStyle="xl"
               fontWeight="medium"
-              mb={2}
+
               color="#2D3748"
             >
               Skills
@@ -107,7 +106,7 @@ function Profile() {
               <List.Root>
                 <List.Item>Collaborative Leadership</List.Item>
                 <List.Item>Strategic Decision-Making</List.Item>
-                <List.Item>Cross-Functional Communication</List.Item>
+                <List.Item>Functional Communication</List.Item>
                 <List.Item>Problem-Solving Under Pressure</List.Item>
                 <List.Item>Agile Development Facilitation</List.Item>
                 <List.Item>Attention to Detail</List.Item>
@@ -119,10 +118,11 @@ function Profile() {
                 <List.Item>Process Optimization</List.Item>
               </List.Root>
             </Blockquote>
+            </Box>
+            <Box mb={6}>
             <Card.Description
               textStyle="xl"
               fontWeight="medium"
-              mb={2}
               color="#2D3748"
             >
               Platforms and Languages
@@ -185,6 +185,7 @@ function Profile() {
                 <Text marginLeft={4}>Daisy UI</Text>
               </Box>
             </Blockquote>
+            </Box>
           </List.Root>
         </VStack>
       </Card.Body>
